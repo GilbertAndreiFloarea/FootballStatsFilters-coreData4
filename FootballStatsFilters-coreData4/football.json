@@ -1,0 +1,451 @@
+{
+  "metadata": {
+    "code": 200
+  },
+  "response": {
+    "squads": [
+               {
+               "id": "1NjVONgEJumutyodYkAI",
+               "name": "Astra Giurgiu",
+               "location": {
+               "address": "Giurgiu",
+               "city": "Giurgiu",
+               "country": "România",
+               "distance": 816,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "540934"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 1300,
+               "noOfPlayers": 788314,
+               "ticketsSoldLastYear": 627577
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency": 3.6
+               },
+               "cupsWon": {
+               "count": 1
+               }
+               },
+               {
+               "id": "w2nNpVckD190lKjyneYP",
+               "name": "Botoșani",
+               "location": {
+               "address": "Botoșani",
+               "distance": 12812,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "555451",
+               "city": "Giurgiu",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 8136,
+               "noOfPlayers": 542516,
+               "ticketsSoldLastYear": 542516
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency": 2.4
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "mzMksm6UW0C3PDKqeraP",
+               "name": "CFR Cluj",
+               "location": {
+               "address": "Cluj",
+               "distance": 6424,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "103500",
+               "city": "Cluj",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 5168,
+               "noOfPlayers": 215313,
+               "ticketsSoldLastYear": 125534
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency": 1
+               },
+               "cupsWon": {
+               "count": 3
+               }
+               },
+               {
+               "id": "7PcL44XGg99vgvri3yNj",
+               "name": "Dinamo București",
+               "location": {
+               "address": "București",
+               "distance": 2837,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "181327",
+               "city": "București",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 4604,
+               "noOfPlayers": 683379,
+               "ticketsSoldLastYear": 411360
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency": 4.8
+               },
+               "cupsWon": {
+               "count": 2
+               }
+               },
+               {
+               "id": "FmuSYUjnvRCGEcGKv7gg",
+               "name": "Dunărea Călărași",
+               "location": {
+               "address": "Călărași",
+               "distance": 535,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "551279",
+               "city": "Călărași",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 2766,
+               "noOfPlayers": 857442,
+               "ticketsSoldLastYear": 703947
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":6
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "9qOGGmGXwOYwDTE664nA",
+               "name": "FCSB",
+               "location": {
+               "address": "Bucuresti",
+               "distance": 161064,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "241828",
+               "city": "Bucuresti",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 5154,
+               "noOfPlayers": 492690,
+               "ticketsSoldLastYear": 230615
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":6.2
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "5oCH9ScwtLAOUI7LOHdn",
+               "name": "Gaz Metan Mediaș",
+               "location": {
+               "address": "Mediaș",
+               "distance": 73,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "682926",
+               "city": "Mediaș",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 2334,
+               "noOfPlayers": 716269,
+               "ticketsSoldLastYear": 509563
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":8.7
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "bSAC0GxLiTEXdOPDHLTW",
+               "name": "Hermannstadt",
+               "location": {
+               "address": "Brasov",
+               "distance": 10214,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "143253",
+               "city": "Brasov",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 1407,
+               "noOfPlayers": 246397,
+               "ticketsSoldLastYear": 570877
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":13
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "dvBOn8vuTMyqO50gi9Ud",
+               "name": "Politehnica Iași",
+               "location": {
+               "address": "Iași",
+               "distance": 844158,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "890315",
+               "city": "Iași",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 2440,
+               "noOfPlayers": 196871,
+               "ticketsSoldLastYear": 341249
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":10.4
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "YgRcvxP1bR1pcARJqItx",
+               "name": "Sepsi Sfântu Gheorghe",
+               "location": {
+               "address": "Sfântu Gheorghe",
+               "distance": 680567,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "874544",
+               "city": "Sfântu Gheorghe",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 3153,
+               "noOfPlayers": 295475,
+               "ticketsSoldLastYear": 177687
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":8.9
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "iSpbiG3ZT8BkBxtz9QPo",
+               "name": "Universitatea Craiova",
+               "location": {
+               "address": "Craiova",
+               "distance": 469898,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "463624",
+               "city": "Craiova",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 5944,
+               "noOfPlayers": 134079,
+               "ticketsSoldLastYear": 603087
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":12.7
+               },
+               "cupsWon": {
+               "count": 1
+               }
+               },
+               {
+               "id": "JIju8CPaiZXGVbqAumrm",
+               "name": "Viitorul Constanța",
+               "location": {
+               "address": "Constanța",
+               "distance": 796476,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "492252",
+               "city": "Constanța",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 5604,
+               "noOfPlayers": 715999,
+               "ticketsSoldLastYear": 706837
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":1.2
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               },
+               {
+               "id": "yxGVZWJQ6jsQI1ymwIHA",
+               "name": "Voluntari",
+               "location": {
+               "address": "Voluntari",
+               "distance": 207305,
+               "contactInfo": {
+                   "mobilePhone": "fancyPhoneNumber",
+                   "email": "fancyEmailHere"
+               },
+               "postalCode": "610416",
+               "city": "Voluntari",
+               "country": "România"
+               },
+               "categories": [
+                              {
+                              "id": "uu6mIlGnJYW4q4Dqi1sa",
+                              "name": "Federația Română de Fotbal"
+                              }
+                              ],
+               "stats": {
+               "trophiesWon": 8575,
+               "noOfPlayers": 503745,
+               "ticketsSoldLastYear": 551306
+               },
+               "price":{
+               "priceTier":1,
+               "message":"Cheap",
+               "currency":0.8
+               },
+               "cupsWon": {
+               "count": 0
+               }
+               }
+               ]
+  }
+}

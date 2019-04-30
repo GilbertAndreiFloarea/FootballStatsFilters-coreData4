@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Accomplishments" representedClassName="Accomplishments" syncable="YES">
+        <attribute name="noOfPlayers" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="ticketsSoldLastYear" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="trophiesWon" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="club" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Club" inverseName="accomplishments" inverseEntity="Club" syncable="YES"/>
+    </entity>
+    <entity name="Club" representedClassName="Club" syncable="YES">
+        <attribute name="contact" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cupsWon" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="topTierClub" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="accomplishments" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Accomplishments" inverseName="club" inverseEntity="Accomplishments" syncable="YES"/>
+        <relationship name="federation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Federation" syncable="YES"/>
+        <relationship name="location" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Location" inverseName="club" inverseEntity="Location" syncable="YES"/>
+        <relationship name="priceInformation" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="PriceInformation" syncable="YES"/>
+    </entity>
+    <entity name="Federation" representedClassName="Federation" syncable="YES">
+        <attribute name="federationID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="club" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Club" syncable="YES"/>
+    </entity>
+    <entity name="Location" representedClassName="Location" syncable="YES">
+        <attribute name="address" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="city" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distance" optional="YES" attributeType="Float" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="postcode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="state" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="club" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Club" inverseName="location" inverseEntity="Club" syncable="YES"/>
+    </entity>
+    <entity name="PriceInformation" representedClassName="PriceInformation" syncable="YES">
+        <attribute name="priceBracket" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <relationship name="club" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Club" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Federation" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Location" positionX="-54" positionY="9" width="128" height="150"/>
+        <element name="PriceInformation" positionX="-36" positionY="63" width="128" height="75"/>
+        <element name="Accomplishments" positionX="-18" positionY="72" width="128" height="105"/>
+        <element name="Club" positionX="0" positionY="81" width="128" height="180"/>
+    </elements>
+</model>
